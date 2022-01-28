@@ -1,0 +1,39 @@
+.btn {
+    padding: 12px 40px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color:#fff;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    transition: .5s ease;
+}
+
+.primary {
+  background-color: #1DB954;
+}
+
+.primary:hover {
+  background-color: #010606;
+  transition: all 0.2s ease-in-out;
+}
+
+.secondary {
+  background-color: #010606;
+  /* background-color: #008ED0; */
+}
+
+.secondary:hover {
+  background-color: #535353;
+  transition: all 0.2s ease-in-out;
+}
+
+.cancel {
+  color: #535353;
+  background-color: #fff;
+}
+
+.cancel:hover {
+  color: #010606;
+  transition: all 0.2s ease-in-out;
+}

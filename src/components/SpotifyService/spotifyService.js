@@ -1,0 +1,19 @@
+import { AUTH_ENDPOINT, CLIENT_ID, RESPONSE_TYPE, SCOPE } from './spotifyApi';
+
+export const handleLogin = () => {
+    window.location = `${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&response_type=${RESPONSE_TYPE}&scope=${SCOPE}&show_dialog=true`;
+};
+
+export const getTokenFromUrl = () => {
+    return window.location.hash
+        .substring(1)
+        .split('&')
+        .reduce((acc, currentValue) => {
+            const [key, value] = currentValue.split('=');
+            acc[key] = value;
+
+            return acc;
+        }, {
+
+        });
+};

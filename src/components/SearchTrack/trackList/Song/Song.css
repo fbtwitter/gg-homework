@@ -1,0 +1,64 @@
+.track {
+    padding: 1em 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    position: relative;
+    transition: .5s ease;
+    display: grid;
+    grid-template-rows: 2fr 0.7fr 0.5fr;
+    /* background-color: #001532;
+    background-color: rgba(8, 32, 61);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; */
+}
+
+.track:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    /* background-color: rgb(20, 47, 82); */
+}
+
+.track:hover .track-image {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.track-image {
+    width: 85%;
+    transition: .5s ease; 
+    margin-bottom: 5px;
+}
+
+.track p {
+    text-align: left;
+    padding: 0 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 5px;
+    /* color: #fff; */
+}
+
+.track-title {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.track-artist {
+    font-size: 12px;
+} 
+
+.track-album {
+    font-size: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+    .track {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+        grid-template-rows: 1fr;
+        margin: auto;
+        padding: 1em;
+        align-items: start;
+
+    }
+}
