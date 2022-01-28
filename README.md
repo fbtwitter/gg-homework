@@ -21,29 +21,3 @@
 To run this project, you will need to add the following environment variables to your .env file
 
 `REACT_APP_CLIENT_ID` your spotify developer client id.
-
-# Run Locally
-Clone the project
-
-  ```
-  git clone https://github.com/yonafransisca/generasi-gigih-homework.git
-  ```
-  
-Go to the project directory
-
-  ```
-  cd generasi-gigih-homework
-  ```
-  
-Install dependencies
-
-  ```
-  yarn
-  ```
-  
-Start the server
-
-  ```
-  yarn start
-  ```
-  
