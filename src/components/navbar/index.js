@@ -67,7 +67,7 @@ const Navbar = ({ countSelectedSong, isLogin, token, selectedSong, setSelectedSo
                         color: '#fff',
                     }}
                 >
-                    Create Playlist App
+                    GenerasiGIGIH
                 </Link>
             </div>
             <div>
